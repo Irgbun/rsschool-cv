@@ -1,1 +1,0 @@
-https://Irgbun.github.io/rsschool-cv/cv
