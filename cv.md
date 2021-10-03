@@ -10,8 +10,8 @@
 
 ## About My Self
 
- I'm 22 years old. Evolving by reviewing various documentation and tests on Codewars.com
- I have such qualities as: 
+I'm 22 years old. Evolving by reviewing various documentation and tests on Codewars.com
+I have such qualities as:
 * hardworking
 * communicative
 * disciplined
@@ -27,9 +27,21 @@
 * VS code
 * Figma
 
-## 
+## Code Examples
 
+```const someObject = { a: 'b', c: 'd' }
 
+function convertObject(obj) {
+    const newObj = {}
+    Object.keys(obj).forEach(function (value) {
+      let key = obj[value]
+      newObj[key] = value
+    })
+    return newObj
+}
+
+console.log(convertObject(someObject))
+```
 
 ## Education 
 
